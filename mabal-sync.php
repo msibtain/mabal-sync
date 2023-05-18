@@ -35,7 +35,7 @@ class MabalSync
         
         if (@$_GET['_sibtest'])
         {
-echo "test here" exit;
+echo "test here"; exit;
 
             $this->sendShippingInfo( $order_id );
             exit;
